@@ -1,0 +1,65 @@
+a
+{
+    color: #01A2A6;
+    transition: all 0.25s;
+}
+a:hover
+{
+    color: #29D9C2;
+}
+
+body
+{
+    background: url('../images/theme/paper.png') repeat;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1
+{
+    /* structure */
+    height: 96px; /* identique à header */
+    margin: 0;
+
+    font-family: 'Amatic SC', cursive;
+    line-height: 96px;
+    text-align: center;
+}
+h1 a:hover
+{
+    color: #BDF271;
+}
+
+h1, h2
+{
+    color: #01A2A6;
+    letter-spacing: 0.1em;
+}
+
+header
+{
+    /* structure */
+    height: 128px;
+    margin-bottom: 2em;
+
+    /* presentation */
+    background-color: #2F2933;
+    border-bottom: 6px solid #01A2A6;
+}
+header nav a
+{
+    float: right;
+    margin-right: 2em;
+}
+
+footer,
+main
+{
+    margin: 0 auto;
+    width: 85%;
+}
+footer
+{
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
